@@ -38,9 +38,9 @@ var nodes = new vis.DataSet([
 {id: 32, label: 'HC', group: 5, size: 1600/36.77},
 {id: 33, label: 'HCs', group: 5, size: 153/36.77},
 {id: 34, label: 'PKM', group: 5, size: 1004/36.77},
-{id: 35, label: 'ZEUS', group: 5, size: 1691/36.77},
-{id: 36, label: 'EROS', group: 5, size: 1082/36.77},
-{id: 37, label: 'ARES', group: 5, size: 191/36.77},
+{id: 35, label: 'ZEUS', group: 8, size: 1691/36.77},
+{id: 36, label: 'EROS', group: 8, size: 1082/36.77},
+{id: 37, label: 'ARES', group: 8, size: 191/36.77},
 {id: 38, label: 'SA', group: 6, size: 1984/36.77},
 {id: 39, label: 'SE', group: 6, size: 1491/36.77},
 {id: 40, label: 'BD2', group: 6, size: 899/36.77},
@@ -83,7 +83,7 @@ var edges = new vis.DataSet([
 {from: 38, to: 41},
 {from: 44, to: 42},
 {from: 43, to: 42},
-{from: 30, to: 23},
+{from: 32, to: 23},
 {from: 24, to: 42},
 {from: 42, to: 15, arrows: "to, from", color: "#FF0000", length: 300},
 {from: 43, to: 15, arrows: "to, from", color: "#FF0000", length: 300},
@@ -95,11 +95,7 @@ var edges = new vis.DataSet([
 {from: 18, to: 16, arrows: "to, from", color: "#FF0000", length: 300},
 {from: 25, to: 26, arrows: "to, from", color: "#FF0000", length: 300},
 {from: 23, to: 5, arrows: "to, from", color: "#FF0000", length: 300},
-{from: 6, to: 5, arrows: "to, from", color: "#FF0000", length: 300},
-
-
-
-
+{from: 6, to: 5, arrows: "to, from", color: "#FF0000", length: 300}
 ]);
 
 // create a network
