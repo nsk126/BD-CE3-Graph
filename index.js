@@ -42,12 +42,14 @@ var nodes = new vis.DataSet([
 {id: 36, label: 'EROS', group: 5, size: 1050/36.77},
 {id: 37, label: 'ARES', group: 5, size: 96/36.77},
 {id: 38, label: 'SA', group: 6, size: 1957/36.77},
-{id: 39, label: 'MG', group: 6, size: 1467/36.77},
+{id: 39, label: 'SE', group: 6, size: 1467/36.77},
 {id: 40, label: 'BD2', group: 6, size: 868/36.77},
 {id: 41, label: 'BLCK', group: 6, size: 1146/36.77},
 {id: 42, label: 'HINI', group: 7, size: 1351/36.77},
 {id: 43, label: 'HlNl', group: 7, size: 1169/36.77},
 {id: 44, label: 'HlNI', group: 7, size: 1169/36.77},
+{id: 45, label: 'RIP', group: 0, size: 436/36.77},
+
 
 ]);
 
@@ -77,6 +79,18 @@ var edges = new vis.DataSet([
 {from: 38, to: 41},
 {from: 42, to: 43},
 {from: 43, to: 44},
+{from: 42, to: 44},
+{from: 29, to: 23},
+{from: 42, to: 15, arrows: "to, from", color: "#FF0000", length: 300},
+{from: 43, to: 15, arrows: "to, from", color: "#FF0000", length: 300},
+{from: 44, to: 15, arrows: "to, from", color: "#FF0000", length: 300},
+{from: 8, to: 15, arrows: "to, from", color: "#FF0000", length: 300},
+{from: 1, to: 26, arrows: "to, from", color: "#FF0000", length: 300},
+{from: 3, to: 45, arrows: "to, from", color: "#FF0000", length: 300},
+
+
+
+
 
 ]);
 
@@ -97,7 +111,8 @@ nodes: {
 },
 edges: {
     width: 2,
-    shadow: true
+    shadow: true,
+    length: 180
 }
 };
 var network = new vis.Network(container, data, options);
