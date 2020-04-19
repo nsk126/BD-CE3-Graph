@@ -85,6 +85,8 @@ var edges = new vis.DataSet([
 {from: 43, to: 42},
 {from: 32, to: 23},
 {from: 24, to: 42},
+{from: 8, to: 26},
+{from: 8, to: 45},
 {from: 42, to: 15, arrows: "to, from", color: "#FF0000", length: 300},
 {from: 43, to: 15, arrows: "to, from", color: "#FF0000", length: 300},
 {from: 44, to: 15, arrows: "to, from", color: "#FF0000", length: 300},
