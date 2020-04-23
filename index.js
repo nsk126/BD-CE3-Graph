@@ -61,7 +61,6 @@ var edges = new vis.DataSet([
 {from: 1, to: 2},
 {from: 1, to: 3},
 {from: 1, to: 4},
-{from: 2, to: 3},
 {from: 3, to: 5},
 {from: 8, to: 9},
 {from: 8, to: 11},
@@ -87,20 +86,15 @@ var edges = new vis.DataSet([
 {from: 24, to: 42},
 {from: 8, to: 26},
 {from: 8, to: 45},
-{from: 42, to: 15, arrows: "to, from", color: "#FF0000", length: 300},
-{from: 43, to: 15, arrows: "to, from", color: "#FF0000", length: 300},
-{from: 44, to: 15, arrows: "to, from", color: "#FF0000", length: 300},
-{from: 42, to: 16, arrows: "to, from", color: "#FF0000", length: 500},
-{from: 43, to: 16, arrows: "to, from", color: "#FF0000", length: 500},
-{from: 44, to: 16, arrows: "to, from", color: "#FF0000", length: 500},
-{from: 8, to: 15, arrows: "to, from", color: "#FF0000", length: 300},
+{from: 8, to: 1, arrows: "to, from", color: "#FF0000", length: 300},
+{from: 8, to: 2, arrows: "to, from", color: "#FF0000", length: 300},
+{from: 8, to: 25, arrows: "to, from", color: "#FF0000", length: 300},
 {from: 1, to: 26, arrows: "to, from", color: "#FF0000", length: 300},
-{from: 3, to: 45, arrows: "to, from", color: "#FF0000", length: 300},
 {from: 18, to: 15, arrows: "to, from", color: "#FF0000", length: 300},
 {from: 18, to: 16, arrows: "to, from", color: "#FF0000", length: 300},
 {from: 25, to: 26, arrows: "to, from", color: "#FF0000", length: 300},
-{from: 23, to: 5, arrows: "to, from", color: "#FF0000", length: 300},
-{from: 6, to: 5, arrows: "to, from", color: "#FF0000", length: 300}
+{from: 24, to: 16, arrows: "to, from", color: "#FF0000", length: 300},
+
 ]);
 
 // create a network
