@@ -22,7 +22,7 @@ var nodes = new vis.DataSet([
 {id: 16, label: 'sigh', group: 0, size: 559/36.77},
 {id: 17, label: 'DINO', group: 0, size: 1440/36.77},
 {id: 18, label: 'YNV', group: 0, size: 1442/36.77},
-{id: 19, label: 'SHIP', group: 0, size: 1195/36.77},
+{id: 19, label: 'SHIP', group: 7, size: 1195/36.77},
 {id: 20, label: 'CC', group: 3, size: 984/36.77},
 {id: 21, label: 'LVA', group: 3, size: 1166/36.77},
 {id: 22, label: 'OFF', group: 0, size: 1208/36.77},
@@ -81,6 +81,7 @@ var edges = new vis.DataSet([
 {from: 38, to: 41},
 {from: 44, to: 42},
 {from: 43, to: 42},
+{from: 19, to: 42},
 {from: 32, to: 23},
 {from: 24, to: 42},
 {from: 8, to: 26},
@@ -93,6 +94,8 @@ var edges = new vis.DataSet([
 {from: 18, to: 16, arrows: "to, from", color: "#FF0000", length: 300},
 {from: 25, to: 26, arrows: "to, from", color: "#FF0000", length: 300},
 {from: 24, to: 16, arrows: "to, from", color: "#FF0000", length: 300},
+{from: 44, to: 16, arrows: "to, from", color: "#FF0000", length: 300},
+
 
 ]);
 
