@@ -88,13 +88,21 @@ var edges = new vis.DataSet([
 {from: 8, to: 45},
 {from: 8, to: 1, arrows: "to, from", color: "#FF0000", length: 300},
 {from: 8, to: 2, arrows: "to, from", color: "#FF0000", length: 300},
-{from: 8, to: 25, arrows: "to, from", color: "#FF0000", length: 300},
 {from: 1, to: 26, arrows: "to, from", color: "#FF0000", length: 300},
-{from: 18, to: 15, arrows: "to, from", color: "#FF0000", length: 300},
-{from: 18, to: 16, arrows: "to, from", color: "#FF0000", length: 300},
-{from: 25, to: 26, arrows: "to, from", color: "#FF0000", length: 300},
-{from: 24, to: 16, arrows: "to, from", color: "#FF0000", length: 300},
-{from: 44, to: 16, arrows: "to, from", color: "#FF0000", length: 300},
+{from: 6, to: 18, arrows: "to, from", color: "#FF0000", length: 300},
+{from: 22, to: 18, arrows: "to, from", color: "#FF0000", length: 300},
+{from: 42, to: 18, arrows: "to, from", color: "#FF0000", length: 300},
+{from: 43, to: 18, arrows: "to, from", color: "#FF0000", length: 300},
+{from: 44, to: 18, arrows: "to, from", color: "#FF0000", length: 300},
+{from: 19, to: 18, arrows: "to, from", color: "#FF0000", length: 400},
+{from: 22, to: 17, arrows: "to, from", color: "#FF0000", length: 400},
+{from: 42, to: 17, arrows: "to, from", color: "#FF0000", length: 400},
+{from: 43, to: 17, arrows: "to, from", color: "#FF0000", length: 400},
+{from: 44, to: 17, arrows: "to, from", color: "#FF0000", length: 400},
+{from: 19, to: 17, arrows: "to, from", color: "#FF0000", length: 400},
+
+
+
 
 
 ]);
