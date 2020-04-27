@@ -99,12 +99,7 @@ var edges = new vis.DataSet([
 {from: 42, to: 17, arrows: "to, from", color: "#FF0000", length: 400},
 {from: 43, to: 17, arrows: "to, from", color: "#FF0000", length: 400},
 {from: 44, to: 17, arrows: "to, from", color: "#FF0000", length: 400},
-{from: 19, to: 17, arrows: "to, from", color: "#FF0000", length: 400},
-
-
-
-
-
+{from: 19, to: 17, arrows: "to, from", color: "#FF0000", length: 400}
 ]);
 
 // create a network
