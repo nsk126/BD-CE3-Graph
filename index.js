@@ -6,7 +6,7 @@ var color = "gray";
 var nodes = new vis.DataSet([
 {id: 1, label: 'MSA', group: 1, size: 1167/36.77},
 {id: 2, label: 'WOOF', group: 1, size: 1764/36.77},
-{id: 3, label: 'FEAR', group: 1, size: 147/36.77},
+{id: 3, label: 'FEAR', group: 1, size: 1447/36.77},
 {id: 4, label: 'PuG', group: 1, size: 970/36.77},
 {id: 5, label: 'FAIR', group: 1, size: 317/36.77},
 {id: 6, label: 'WaSp', group: 0, size: 1684/36.77},
