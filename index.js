@@ -52,7 +52,7 @@ var nodes = new vis.DataSet([
 {id: 46, label: 'FUN', group: 0, size: 1229/36.77},
 {id: 47, label: 'jw', group: 0, size: 374/36.77},
 {id: 48, label: 'JK', group: 0, size: 844/36.77},
-{id: 49, label: 'CCs', group: 0, size: 232/36.77},
+{id: 49, label: 'CCs', group: 3, size: 232/36.77},
 
 
 
@@ -60,9 +60,9 @@ var nodes = new vis.DataSet([
 
 // create an array with edges
 var edges = new vis.DataSet([
-    {from: 1, to: 2},
-    {from: 1, to: 3},
-    {from: 1, to: 4},
+{from: 1, to: 2},
+{from: 1, to: 3},
+{from: 1, to: 4},
 {from: 3, to: 5},
 {from: 8, to: 9},
 {from: 8, to: 11},
@@ -70,6 +70,7 @@ var edges = new vis.DataSet([
 {from: 8, to: 13},
 {from: 8, to: 14},
 {from: 8, to: 18},
+{from: 6, to: 7},
 {from: 12, to: 10},
 {from: 20, to: 21},
 {from: 29, to: 30},
@@ -89,7 +90,8 @@ var edges = new vis.DataSet([
 {from: 32, to: 23},
 {from: 24, to: 42},
 {from: 8, to: 26},
-{from: 8, to: 45},  
+{from: 8, to: 45}, 
+{from: 20, to: 49},  
 {from: 42, to: 17, arrows: "to, from", color: "#FF0000", length: 300},
 {from: 43, to: 17, arrows: "to, from", color: "#FF0000", length: 300},
 {from: 44, to: 17, arrows: "to, from", color: "#FF0000", length: 300},
